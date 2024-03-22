@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>Calculate story points</h1>
-    <p>Use this form to calculate the story points.</p>
+    <p>Use this form to calculate the story points for a DEXPRO story or bug.</p>
 
     <form>
       <div class="horizontal">
@@ -39,7 +39,7 @@
 </template>
 
 <script setup lang="ts">
-import { Size, calculateStoryPoints } from '@/logic/points';
+import { type Size, calculateStoryPoints } from '@/logic/points';
 import { computed, ref } from 'vue';
 
 
